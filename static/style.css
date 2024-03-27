@@ -13,10 +13,19 @@ html, body {
     background-color: #282828;
 }
 
-.title {
+h1 {
     text-align: center;
     font-size: 4em;
     font-family: 'Silkscreen', sans-serif;
+}
+
+p {
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: min(100%, 30em);
 }
 
 .logo {
