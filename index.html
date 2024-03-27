@@ -32,6 +32,10 @@
         logo_image_width = logo_image.getBoundingClientRect().width;
     }
 
+    function updateLogoTextTopMargin() {
+        logo_text.style.marginTop = `-${logo_image.width/2 + 100}px`
+    }
+
     updateLogoImageWidth()
     var intervalID = setInterval(updateLogoImageWidth, 1500);
 
@@ -39,9 +43,7 @@
         window.location.href = '/static/game.html';
     });
 
-    window.addEventListener('resize', function(event) {
-        logo_text.style.marginTop = `-${logo_image.width/2 + 100}px`
-    }, true);
+    window.addEventListener('resize', updateLogoTextTopMargin, true);
 </script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9471486665151716"
