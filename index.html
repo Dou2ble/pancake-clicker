@@ -11,8 +11,8 @@
 <body>
     <h1 class="title">Pancake Clicker</h1>
     <div class="logo-container">
-        <img class="logo" src="static/pancakeLarge.png" alt="logo">
-        <h1 class="text-logo">Play <br> Now</h1> 
+        <img class="logo" id="logo-image" src="static/pancakeLarge.png" alt="logo">
+        <h1 class="text-logo" id="logo-text">Play <br> Now</h1> 
     </div>
 
     <br><br><br><br><br><br>
@@ -24,9 +24,24 @@
 </body>
 
 <script>
+    logo_image = document.getElementById('logo-image');
+    logo_text = document.getElementById('logo-text');
+    logo_image_width = 0
+
+    function updateLogoImageWidth() {
+        logo_image_width = logo_image.getBoundingClientRect().width;
+    }
+
+    updateLogoImageWidth()
+    var intervalID = setInterval(updateLogoImageWidth, 1500);
+
     document.querySelector('.logo-container').addEventListener('click', function() {
         window.location.href = '/static/game.html';
     });
+
+    window.addEventListener('resize', function(event) {
+        logo_text.style.marginTop = `-${logo_image.width/2 + 100}px`
+    }, true);
 </script>
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9471486665151716"

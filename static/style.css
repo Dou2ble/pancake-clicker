@@ -26,12 +26,14 @@ html, body {
     width: 32em;
     max-width: 100%;
 
+    border-radius: 3000em;
+
     animation: spin 1.5s linear infinite;
 }
 
 .text-logo {
     text-align: center;
-    margin-top: -3.8em;
+    /* margin-top: -3.8em; */
 
     font-size: 6em;
     font-family: 'Silkscreen', sans-serif;
