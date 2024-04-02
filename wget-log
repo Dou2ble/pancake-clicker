@@ -1,0 +1,7 @@
+--2024-04-02 17:21:56--  https://cdn.discordapp.com/attachments/1161216921266565160/1224387688489029852/Pancake_Clicker.html?ex=661d4ee4
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving cdn.discordapp.com (cdn.discordapp.com)... 162.159.134.233, 162.159.135.233, 162.159.133.233, ...
+Connecting to cdn.discordapp.com (cdn.discordapp.com)|162.159.134.233|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2024-04-02 17:21:56 ERROR 404: Not Found.
+
