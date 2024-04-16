@@ -1,0 +1,12 @@
+#+TITLE: About us
+#+OPTIONS: toc:nil date:nil
+#+HTML_INCLUDE_STYLE:
+#+HTML_HEAD_EXTRA: <link rel="stylesheet" href="/static/style.css">
+
+* How the game was created
+This game was built using [[https://turbowarp.org][Turbowarp]], a scratch framework with improved performance using [[https://scratch.mit.edu/][Scratch]].
+The game was completed on the 11th of April 2024, using pixel-art made with [[https://piskel.com][Piskel]] and sound-effects from [[https://pixabay.com/][Pixabay]].
+
+* About the website
+The website is made using 0 javascript frameworks or libraries for faster loading and support for older browsers.
+
