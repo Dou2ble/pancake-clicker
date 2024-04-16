@@ -19,6 +19,12 @@ h1 {
     font-family: 'Silkscreen', sans-serif;
 }
 
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Silkscreen', sans-serif;
+}
+
 p {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
